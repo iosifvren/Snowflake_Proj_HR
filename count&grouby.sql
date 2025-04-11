@@ -1,0 +1,7 @@
+SELECT 
+    COUNTRY, 
+    COUNT(*) AS Number_of_Candidates
+FROM 
+    IT_RECRUITMENT.OPENINGS.CANDIDATES
+GROUP BY 
+    COUNTRY;
